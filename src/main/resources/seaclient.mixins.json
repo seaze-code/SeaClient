@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.seaclient.menu.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "BitmapProviderDefinitionMixin",
+    "GuiMixin",
+    "HudMixin",
+    "ConnectScreenMixin",
+    "WorldOpenFlowsMixin",
+    "ScreenThemeMixin",
+    "AbstractButtonThemeMixin",
+    "AbstractSliderThemeMixin",
+    "EditBoxThemeMixin",
+    "SelectionListThemeMixin",
+    "ScrollAreaThemeMixin",
+    "MenuTabButtonThemeMixin",
+    "CheckboxThemeMixin",
+    "KeyboardHandlerMixin",
+    "EntityRenderDispatcherMixin",
+    "ParticleEngineMixin",
+    "SoundEngineMixin",
+    "ScreenEffectRendererMixin",
+    "GameRendererMixin",
+    "LightmapRenderStateExtractorMixin",
+    "MultiPlayerGameModeMixin",
+    "ClientPacketListenerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

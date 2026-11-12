@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "sea-client",
+  "version": "${version}",
+  "name": "SeaClient",
+  "description": "High-performance Fabric client mod with sharp-rectangular UI theme, real-time Bedwars & PvP HUD, live Windows media integration, dynamic 3D skin viewer, and FPS optimization suite.",
+  "authors": [
+    "sea",
+    "seaze"
+  ],
+  "contact": {
+    "homepage": "https://github.com/seaze-code/SeaClient",
+    "sources": "https://github.com/seaze-code/SeaClient"
+  },
+  "license": "MIT",
+  "icon": "assets/seaclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.seaclient.menu.SeaClientMod"
+    ]
+  },
+  "mixins": [
+    "seaclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
